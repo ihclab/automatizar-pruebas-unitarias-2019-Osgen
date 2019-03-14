@@ -1,5 +1,5 @@
 
-
+//VERSION JS
 /**
 * Calcula y regresa la media artimética
 */
