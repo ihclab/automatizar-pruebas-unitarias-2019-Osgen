@@ -11,12 +11,20 @@ namespace AutomatizarPruebasUnitarias {
         /**
          * Calcula y regresa la media artimética
          */
-        public static double mediaAritmetica(params int[] vals) { }
+        public static double mediaAritmetica(params int[] vals) {
+            double suma =0;
+                foreach(int param in vals){
+                    suma+=param;
+                }
+            return suma/vals.length();
+        }
 
         /**
          * Calcula y regresa la raíz enésima = x^(1/n)
          */
-        private static double raizEnesima(double x, int n) { }
+        private static double raizEnesima(double x, int n) {
+            return Math.Pow(x,(1/n));
+         }
 
         /**
          *  Usa raizEnesima para calcular y regresar la media geométrica
