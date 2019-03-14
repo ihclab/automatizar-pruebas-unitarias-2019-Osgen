@@ -2,6 +2,6 @@
 //c# main agregados
 static public void Main(){
 
-    Console.WriteLine(mediaAritmetica(2,3,8)); 
+    Console.WriteLine(mediaAritmetica(new int[] {1,2,5})); 
     
 }
