@@ -10,5 +10,10 @@ let fs = require("fs");
 fs.readFile("test/CasosPrueba.txt", function(err, buf) {
     //all commands in this line.
     let lines = buf.toString().split("\n");
-    console.log(lines);
+    lines.forEach(line =>{
+      let arg = line.split(":");
+      console.log(arg);
+      
+    });
+    //console.log(lines);
   });
