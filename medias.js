@@ -40,6 +40,7 @@ function mediaArmonica( vals) {
 //read file
 let fs = require("fs");
 fs.readFile("test/CasosPrueba.txt", function(err, buf) {
+    //all commands in this line.
     let lines = buf.toString().split("\n");
     console.log(lines);
   });
