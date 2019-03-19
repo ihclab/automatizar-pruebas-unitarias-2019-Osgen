@@ -36,6 +36,15 @@ function mediaArmonica( vals) {
 
 }
 
+
+//read file
+let fs = require("fs");
+fs.readFile("test/CasosPrueba.txt", function(err, buf) {
+    let lines = buf.toString().split("\n");
+    console.log(lines);
+  });
+
+
 //test
 console.log(mediaAritmetica([2,2,5]));
 console.log(raizEnesima(64,3));

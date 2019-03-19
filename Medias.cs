@@ -34,7 +34,7 @@ namespace AutomatizarPruebasUnitarias {
                 foreach(int param in vals){
                     suma+=param;
                 }
-            return raizEnesima(suma, vals.length());
+            return raizEnesima(suma, vals.length()) ;
          }
 
         /**
