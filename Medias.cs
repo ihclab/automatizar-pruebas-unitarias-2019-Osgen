@@ -29,7 +29,13 @@ namespace AutomatizarPruebasUnitarias {
         /**
          *  Usa raizEnesima para calcular y regresar la media geométrica
          */
-        public double mediaGeometrica(params int[] vals) { }
+        public double mediaGeometrica(params int[] vals) {
+            double suma =0;
+                foreach(int param in vals){
+                    suma+=param;
+                }
+            return raizEnesima(suma, vals.length());
+         }
 
         /**
          * Este método no está implementado

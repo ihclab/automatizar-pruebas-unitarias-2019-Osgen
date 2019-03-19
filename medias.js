@@ -22,7 +22,11 @@ function raizEnesima(x, n) {
  *  Usa raizEnesima para calcular y regresar la media geométrica
  */
 function mediaGeometrica(vals) {
-
+    suma=0;
+    vals.forEach(val => {
+        suma += val;
+    });
+    return raizEnesima(suma, vals.length);
 }
 
 /**
@@ -35,3 +39,5 @@ function mediaArmonica( vals) {
 //test
 console.log(mediaAritmetica([2,2,5]));
 console.log(raizEnesima(64,3));
+console.log(mediaGeometrica([3,5,1]));
+
