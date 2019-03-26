@@ -17,7 +17,7 @@ fs.readFile("test/CasosPrueba.txt", function(err, buf) {
       let arg = line.split(":");
       let funct = arg[1];
       let params = arg[2].split(" ").map(Number);
-      let results = arg[3] = Number(arg[3]);
+      let results = arg[3] = Number(arg[3]);//Convertion return NaN if was null in string, validated in class Medias
       //console.log(results);
       if(funct=="mediaArmonica"){
         console.log("No implementado");

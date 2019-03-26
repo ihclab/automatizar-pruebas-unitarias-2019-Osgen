@@ -12,7 +12,7 @@ function Medias(){
             suma+=val;
         });
         let result = suma/vals.length; 
-    return isNaN(result)? 0: result;
+    return isNaN(result)? 0: result; // if NaN, return 0
     }
     /**
      *  Usa raizEnesima para calcular y regresar la media geométrica
@@ -23,7 +23,7 @@ function Medias(){
             suma += val;
         });
         let result =this.raizEnesima(suma, vals.length); 
-        return isNaN(result)? 0 : result;
+        return isNaN(result)? 0 : result;// if NaN, return 0
     }
     /**
      * Calcula y regresa la raíz enésima = x^(1/n)
