@@ -11,7 +11,8 @@ function Medias(){
         vals.forEach(val => {
             suma+=val;
         });
-    return suma/vals.length;
+        let result = suma/vals.length; 
+    return isNaN(result)? 0: result;
     }
     /**
      *  Usa raizEnesima para calcular y regresar la media geométrica
@@ -21,7 +22,8 @@ function Medias(){
         vals.forEach(val => {
             suma += val;
         });
-        return this.raizEnesima(suma, vals.length);
+        let result =this.raizEnesima(suma, vals.length); 
+        return isNaN(result)? 0 : result;
     }
     /**
      * Calcula y regresa la raíz enésima = x^(1/n)
