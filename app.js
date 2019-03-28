@@ -5,6 +5,7 @@ let test = new Medias();
 // console.log(test.mediaAritmetica([2,2,5]));
 // console.log(test.raizEnesima(64,3));
 //console.log(test.mediaGeometrica([2,4,8]));
+//console.log(test.mediaArmonica());
 
 
 //read file
@@ -20,10 +21,6 @@ fs.readFile("test/CasosPrueba.txt", function(err, buf) {
       let params = arg[2].split(" ").map(Number);
       let results = arg[3] = Number(arg[3]);//Convertion return NaN if was null in string, validated in class Medias
       //console.log(results);
-      if(funct=="mediaArmonica"){
-        console.log("No implementado");
-        
-      }else{
 
         try {
           //console.log(test[funct](params).toFixed(4));
@@ -34,9 +31,8 @@ fs.readFile("test/CasosPrueba.txt", function(err, buf) {
             console.log('\x1b[31m%s\x1b[0m', "Incorrect");
           }
         } catch (error) {
-          console.log("Función inexistente");
+          console.log("Metodo no implementado");
         }
-      }
     });
   });
   console.timeEnd('Tiempo de ejecucion');

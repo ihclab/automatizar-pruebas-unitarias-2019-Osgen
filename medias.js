@@ -33,7 +33,11 @@ function Medias(){
     }
     //Metodo no implementado
     this.mediaArmonica = function(){
-
+        try {
+            throw ({'Error':'Metodo no implementado'});
+        } catch (error) {
+            
+        }
     }
 }
 
