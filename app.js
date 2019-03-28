@@ -28,9 +28,9 @@ fs.readFile("test/CasosPrueba.txt", function(err, buf) {
           //console.log(test[funct](params).toFixed(4));
           //console.log(results);
           if(test[funct](params).toFixed(4)==results){
-          console.log("Correct");
+            console.log('\x1b[32m%s\x1b[0m', "Correct");
           }else{
-            console.log("Incorrect");
+            console.log('\x1b[31m%s\x1b[0m', "Incorrect");
           }
         } catch (error) {
           console.log("Función inexistente");
