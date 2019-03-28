@@ -1,3 +1,4 @@
+console.time('Tiempo de ejecucion');
 let Medias = require("./Medias");
 
 let test = new Medias();
@@ -38,3 +39,4 @@ fs.readFile("test/CasosPrueba.txt", function(err, buf) {
       }
     });
   });
+  console.timeEnd('Tiempo de ejecucion');
