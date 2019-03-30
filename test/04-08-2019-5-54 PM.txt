@@ -1,0 +1,22 @@
+ID   Resultado Metodo           Detalles
+==========================================================
+
+001 	 Exito 	 mediaAritmetica Calculado = 4.6667 T.E. 0.00000
+002 	 Exito 	 mediaAritmetica Calculado = 3.0000 T.E. 0.00000
+003 	 Exito 	 mediaAritmetica Calculado = 10.5000 T.E. 0.00000
+004 	 Falla 	 mediaGeometrica Calculado = 1.9948 Esperado = 6.6569 T.E. 0.00000
+005 	 Exito 	 mediaGeometrica Calculado = 0.0000 T.E. 1.00000
+006 	 Falla 	 mediaGeometrica Calculado = 2.4101 Esperado = 4 T.E. 0.00000
+007 	 	 	mediaArmonica Metodo no implementado
+008 	 	 	mediaArmonica Metodo no implementado
+009 	 Falla 	 mediaAritmetica Calculado = 5.5000 Esperado = 0 T.E. 0.00000
+0010 	 Falla 	 mediaGeometrica Calculado = 0.0000 Esperado = NaN T.E. 0.00000
+0011 	 Exito 	 mediaAritmetica Calculado = 0.0000 T.E. 0.00000
+0012 	 Exito 	 mediaGeometrica Calculado = 0.0000 T.E. 0.00000
+0013 	 	 	mediaNoExiste Metodo no encontrado
+
+
+========= Fin de la prueba ==========
+
+
+      Exitos = 6 	 Fallas = 4
